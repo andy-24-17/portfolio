@@ -17,7 +17,7 @@ export const WorkHistory = () => {
           className="flex md:flex-row flex-col space-y-10 md:space-y-0 space-x-10 my-20 relative"
           key={`timeline-${index}`}
         >
-          <Paragraph className="w-40">{item.date}</Paragraaph>
+          <Paragraph className="w-40">{item.date}</Paragraph>
           <div>
             <Heading
               as="h5"
@@ -52,4 +52,3 @@ const Step = ({ children }: { children: React.ReactNode }) => {
     </div>
   );
 };
-
